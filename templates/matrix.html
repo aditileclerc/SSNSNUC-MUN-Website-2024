@@ -1,0 +1,39 @@
+{% extends "base.html" %} {% block page_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/registration.css') }}"> {% endblock %} {% block content
+%}
+
+<div class="reg-heading container text-center">
+    <h1>Country Matrix</h1>
+    <!-- change title and text as required -->
+    <h2></h2>
+</div>
+
+<div class="row justify-content-center">
+    <button id="delegatebutton" class="button button-active"><a href="https://docs.google.com/spreadsheets/d/1KeOIIZgaX9Z1IviMgGn5YuwPcbNbdcAGSEpWY80qtEc/edit?usp=sharing" target="_blank">Delegates</a></button>
+    <!-- <button id="ipbutton" class="button" onclick="showIPAllotments(event);"><a href="" target="#">IP</a></button> -->
+</div>
+<div style="height: 20vh;">
+
+</div>
+
+ {% endblock %} {% block nav_active %}
+<script>
+    document.getElementById("nav-delegate-allocation").classList.add("active");
+    function showDelegateAllotments(e) {
+        e.preventDefault()
+        document.getElementById("registration").src = "https://docs.google.com/spreadsheets/d/15ZnixnNTUIiJaz-jCjvvnRNXCsJ1XGagXyKKQ00Vv4I/edit?usp=sharingpubhtml?widget=true&amp;headers=false"
+        let arr = document.getElementById("delegatebutton").classList
+        if(!(arr.contains("button-active"))) document.getElementById("delegatebutton").classList.add("button-active");
+        arr = document.getElementById("ipbutton").classList
+        if((arr.contains("button-active"))) document.getElementById("ipbutton").classList.remove("button-active");
+    }
+    function showIPAllotments(e) {
+        e.preventDefault()
+        document.getElementById("registration").src = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQgYJwF6ltZvckXg4du6QJN4WTnDKkBwg-U83-AGXkkz_t-lv8UdSEZwba24tqMOX8sg_HnFvPzFZLo/pubhtml?widget=true&amp;headers=false"
+        let arr = document.getElementById("ipbutton").classList
+        if(!(arr.contains("button-active"))) document.getElementById("ipbutton").classList.add("button-active");
+        arr = document.getElementById("delegatebutton").classList
+        if((arr.contains("button-active"))) document.getElementById("delegatebutton").classList.remove("button-active")
+    }
+</script>
+{% endblock %}

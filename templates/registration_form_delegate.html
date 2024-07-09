@@ -1,0 +1,21 @@
+{% extends "base.html" %} 
+{% block page_css %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/registration.css') }}">
+{% endblock %}
+{% block content %}
+<div class="registration-container">
+    <div class="suffix-text">
+        <div class="top text-center">
+            <h1>DELEGATE REGISTRATIONS</h1>
+        </div>
+    </div>
+    <div class="flex-container">
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSM4-YP6M_i8uAYXJ0ysIfQPAQaZ1GGeTp7h3s_pYJMeSoLQ2jcgO4j8nUA9N9TmuPlgfJ5dlYK3Tt8/pubhtml?widget=true&amp;headers=false" class="registration matrix" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="{{ doc_link }}" class="registration" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</div>
+{% endblock %} {% block nav_active %}
+<script type="text/javascript">
+    document.getElementsByTagName("body").style.overflowY = "hidden";
+</script>
+{% endblock %}

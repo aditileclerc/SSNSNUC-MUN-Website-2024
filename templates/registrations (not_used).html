@@ -1,0 +1,79 @@
+{% extends "base.html" %} {% block page_css %}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/registration.css')}}"> {% endblock %} {% block content %}
+
+<div class="reg-container">
+    <div class="reg-heading container">
+        <h1 class="committee-heading">2024 Registration</h1>
+        <!-- <h2 style="text-align: center;">
+            Greetings prospective delegates! Rolling allotments and International press reporter applications are closed.
+        </h2> -->
+        <!-- <div style="margin-top: 1rem;" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Pay Now!</strong> Click <a href="/payments" style="text-decoration: underline;">Here</a> to pay now
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div> -->
+    </div>
+
+    <div class="suffix-text">
+            <h2 align="center">
+                The registration fee to be paid after allotments are announced is <strong>1800 INR</strong> (inclusive of lunch on all 3 days and stationery).<br/> 
+                The accommodation fees is <strong>1800 INR</strong> (air conditioned rooms with complimentary breakfast).<br/><br/>Accomodation is optional.<br/>SSN/SNUC students cannot opt for accommodation. 
+            </h2>
+    </div>
+
+    <div class="reg-row row d-flex flex-row justify-content-around no-gutters">
+        
+        <!-- <div class="reg-card col-lg-6">
+            <a href="/registrations/priority">
+                <div class="apply-type" style="background-image: url({{ url_for('static', filename = 'images/apply/Delegate.png') }});"> </div>
+            </a>
+        </div> -->
+
+        <!-- <div class="suffix-text">
+            <h2 align="center">
+                Proceed to the <a style="text-decoration: underline;" href="/payments"><b>Payment portal</b></a> to avoid risk of losing your allotment
+            </h2>
+        </div> -->
+
+        <div class="reg-card col-lg-2" data-aos="flip-left" data-aos-duration="1500">
+            <a href="https://forms.gle/8bwzFJLbS7wN2U1K9" target="_blank">
+                <div class="apply-type" style="background-image: url({{ url_for('static', filename = 'images/apply/lightDel.png') }}); border-radius:5%;">
+                </div>
+            </a>
+        </div>  
+
+        <!-- <div class="reg-card col-lg-2" data-aos="flip-left" data-aos-duration="1500">
+            <a href="https://forms.gle/FtwsoFFwQ5rDKaqw6" target="_blank">
+                <div class="apply-type" style="background-image: url({{ url_for('static', filename = 'images/apply/Press.png') }}); border-radius:5%;">
+                </div>
+            </a>
+        </div>  -->
+        <div class="reg-card col-lg-2" data-aos="flip-left" data-aos-duration="1500">
+            <a href="https://docs.google.com/spreadsheets/d/1LjDXooV83Gs6HE_UJGTQdLyaKX34trF2rxyIfxsjFX0/edit?usp=sharing" target="_blank">
+                <div class="apply-type" style="background-image: url({{ url_for('static', filename = 'images/apply/matrix.png') }}); border-radius:5%;">
+                </div>
+            </a>
+        </div> 
+        <!-- <div class="reg-card col-lg-6">
+            <a href="/registrations/eb">
+                <div class="apply-type"
+                    style="background-image: url({{ url_for('static', filename = 'images/apply/EB.png') }});"> </div>
+            </a>
+        </div> -->
+        <!-- <div class="reg-card col-lg-6">
+            <a href="https://forms.gle/6g1aPU7WmMfTFM2o7" target="_blank">
+                <div class="apply-type" style="background-image: url({{ url_for('static', filename = 'images/apply/Press.png') }});"> </div>
+            </a>
+        </div>   -->
+
+        
+    </div>
+</div>
+
+
+{% endblock %} {% block nav_active %}
+<script>
+    document.getElementById("nav-registration").classList.add("active");
+</script>
+{% endblock %}

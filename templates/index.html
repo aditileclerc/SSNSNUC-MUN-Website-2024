@@ -1,0 +1,35 @@
+{% extends "base.html" %} 
+
+{% block page_css %}
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/committee_card.css')}}" />
+
+{% endblock %}
+
+{% block content %}
+
+<!-- <div id="reg-alert-show" style="margin: 1rem;padding: 12px 32px 12px 20px;" class="alert alert-warning alert-dismissible fade show" role="alert">
+    Check out the Conference Manual. Click <a style="text-decoration: underline;font-weight: 600;" href="../static/Conference Manual.pdf" target="_blank">here</a> to download!
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button> 
+</div> -->
+
+<div class="jumbotron jumbotron-fluid jumbotron-img">
+    <a href="#letter" class="scroll-down"><i class="fas fa-angle-down fa-2x"></i></a>
+</div>
+
+<div id="letter">
+    {% include "index/letter.html" %}
+</div>
+
+<div></div>
+{% include "index/committee-card.html" %} 
+
+{% endblock %} 
+
+{% block nav_active %}
+<script>
+    document.getElementById("nav-home").classList.add("active");
+</script>
+{% endblock %}

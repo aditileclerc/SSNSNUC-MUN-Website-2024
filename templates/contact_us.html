@@ -1,0 +1,140 @@
+{% extends "base.html" %} {% block page_css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/contact_us_page.css')}}" /> {% endblock %} {% block
+content %}
+<!-- Demo header-->
+<div class="contact-page-container">
+  <h1>Contact Us</h1>
+  <div class="row">
+    <div class="col-md-3">
+      <!-- Tabs nav -->
+      <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist"
+        aria-orientation="vertical">          
+        <a class="nav-link mb-3 p-3 shadow" id="button-contact-1" data-toggle="pill" href="#id-contact-1"
+          role="tab" aria-controls="id-contact-1" aria-selected="true">
+          <i class="fas fa-user mr-2"></i>
+          <span class="font-weight-bold text-uppercase">Raghav, Secretary General</span></a>
+
+        <!-- <a class="nav-link mb-3 p-3 shadow" id="button-contact-2" data-toggle="pill" href="#id-contact-2"
+          role="tab" aria-controls="id-contact-2" aria-selected="false">
+          <i class="fas fa-user mr-2"></i>
+          <span class="font-weight-bold text-uppercase">Meera Kumaar, Finance</span></a> -->
+
+        <a class="nav-link mb-3 p-3 shadow" id="button-contact-2" data-toggle="pill" href="#id-contact-2"
+          role="tab" aria-controls="id-contact-2" aria-selected="false">
+          <i class="fas fa-user mr-2"></i>
+          <span class="font-weight-bold text-uppercase">Anirudh K, Deputy Secretary General</span></a>
+        <a class="nav-link mb-3 p-3 shadow" id="button-contact-3" data-toggle="pill" href="#id-contact-3"
+          role="tab" aria-controls="id-contact-3" aria-selected="false">
+          <i class="fas fa-user mr-2"></i>
+          <span class="font-weight-bold text-uppercase">Jagrath M, Delegate Affairs</span></a>
+        <a class="nav-link mb-3 p-3 shadow" id="button-contact-4" data-toggle="pill" href="#id-contact-4"
+          role="tab" aria-controls="id-contact-4" aria-selected="false">
+          <i class="fas fa-user mr-2"></i>
+          <span class="font-weight-bold text-uppercase">Farhaan M, Delegate Affairs</span></a>
+        <!-- <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                    <i class="fab fa-facebook mr-2"></i>
+                    <span class="font-weight-bold small text-uppercase">Facebook</span></a>
+
+                <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fas fa-at mr-2"></i>
+                    <span class="font-weight-bold small text-uppercase">E-Mail</span></a> -->
+      </div>
+    </div>
+
+    <div class="col-md-9">
+      <!-- Tabs content -->
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade shadow rounded bg-white p-4" id="id-contact-1" role="tabpanel"
+          aria-labelledby="button-contact-1">
+          <h4 class="mb-4">Raghav S</h4>
+          <h5 class="font-bold mb-4">- Secretary General</h5>
+          <p class="font-italic mb-3">
+            <i class="fas fa-phone"></i> : +91 7358 765915<br>
+            <!-- <a href="mailto:shivangi1950@bme.ssn.edu.in"><i class="fa fa-envelope"> </i></a> -->
+          </p>
+
+          <!-- <div style="display: inline-flex">
+            <span class="nav-item" style="display: inline">
+              <a class="mr-4" href="https://www.instagram.com/shiv.py/" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </span>
+            <span class="nav-item" style="display: inline">
+              <a class="mr-4" href="https://www.facebook.com/shivangi.pandey.522" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-facebook fa-2x"></i>
+              </a>
+            </span>
+          </div> -->
+        </div>
+        <div class="tab-pane fade shadow rounded bg-white p-4" id="id-contact-2" role="tabpanel"
+          aria-labelledby="button-contact-2">
+          <h4 class="mb-4">Anirudh K</h4>
+          <h5 class="font-bold mb-4">- Deputy Secretary General</h5>
+          <p class="font-italic mb-3">
+            <i class="fas fa-phone"></i> : +91 9841817634<br>
+            <!-- <a href="mailto:shivangi1950@bme.ssn.edu.in"><i class="fa fa-envelope"> </i></a> -->
+          </p>
+        </div>
+        <!-- <div class="tab-pane fade shadow rounded bg-white p-4" id="id-contact-2" role="tabpanel"
+          aria-labelledby="button-contact-2">
+          <h4 class="mb-4">Meera Kumaar</h4>
+          <h5 class="font-bold mb-4">- USG Finance</h5>
+          <p class="font-italic mb-3">
+            <i class="fas fa-phone"></i> : +91 90947 77996<br>
+            <a href="mailto:meera2010378@ssn.edu.in"><i class="fa fa-envelope"> </i> meera2010378@ssn.edu.in</a>
+          </p>
+
+          <div style="display: inline-flex">
+            <span class="nav-item" style="display: inline">
+              <a class="mr-4" href="https://www.instagram.com/prasidhaprabhu" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </span>
+            <span class="nav-item" style="display: inline">
+              <a class="mr-4" href="https://www.facebook.com/userid" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-facebook fa-2x"></i>
+              </a>
+            </span>
+          </div>
+        </div> -->
+        <div class="tab-pane fade shadow rounded bg-white p-4" id="id-contact-3" role="tabpanel"
+          aria-labelledby="button-contact-3">
+          <h4 class="mb-4">Jagrath M</h4>
+          <h5 class="font-bold mb-4">- USG Delegate Affairs</h5>
+          <p class="font-italic mb-3">
+            <i class="fas fa-phone"></i> : +91 96298 66610<br>
+            <!-- <a href="mailto:lohitas0709@gmail.com"><i class="fa fa-envelope"> </i></a> -->
+          </p>
+        </div>
+        <div class="tab-pane fade shadow rounded bg-white p-4" id="id-contact-4" role="tabpanel"
+          aria-labelledby="button-contact-4">
+          <h4 class="mb-4">Farhaan M</h4>
+          <h5 class="font-bold mb-4">- USG Delegate Affairs</h5>
+          <p class="font-italic mb-3">
+            <i class="fas fa-phone"></i> : +91 96534 18241<br>
+            <!-- <a href="mailto:lohitas0709@gmail.com"><i class="fa fa-envelope"> </i></a> -->
+          </p>
+
+          <div style="display: inline-flex">
+            <!-- <span class="nav-item" style="display: inline">
+              <a class="mr-4" href="https://www.instagram.com/lohita_srinivasa" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </span> -->
+            <!-- <span class="nav-item" style="display: inline">
+              <a class="mr-4" href="https://www.facebook.com/userid" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-facebook fa-2x"></i>
+              </a>
+            </span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block nav_active %}
+<script>
+  document.getElementById("nav-contact").classList.add("active");
+</script>
+
+{% endblock %}

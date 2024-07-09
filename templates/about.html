@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block page_css %}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/about_ssn.css')}}"> {% endblock %}{% block content %}
+<div class="about-section">
+    <div class='about-ssn-container' data-aos="zoom-in-up" data-aos-duration="1500">
+        <div class="about-ssn-heading">
+            <h2>About SSN College of Engineering , Chennai</h2>
+        </div>
+        <div class="about-ssn-paragraph">
+            <p>SSN Institutions, founded by Dr. Shiv Nadar, Chairman of HCL Technologies, has grown from its humble beginnings to become a behemoth in the field of technical education. We have consistently been ranked as a premier private engineering college in Tamilnadu and amongst the top institutes in India by various reputed surveys.
+            </p>
+            <p>Recently, the college added yet another feather to its cap by being ranked 48th among all engineering colleges in India by NIRF. The college is now recognised as “Autonomous” by Anna University. SSN motivates students to innovate and never settle for less. Students are empowered to set the bar as high as possible.</p>
+        </div>
+        <div class="about-ssn-heading">
+            <h2>About Shiv Nadar University , Chennai</h2>
+        </div>
+        <div class="about-ssn-paragraph">
+            <p>Shiv Nadar University, Chennai is a branch of Shiv Nadar University, originally founded in Noida, by &emsp;  Dr. Shiv Nadar. </p>
+            <p>Established by an act of the Tamil Nadu Legislative Assembly to bring about a paradigm shift through the development of outstanding leadership, research, knowledge and ideas for education and allied development sectors, the university, with its on-campus research capabilities and the mindset to nurture individuals into problem-solvers of tomorrow, is staged to become the epicentre of academic rigor and innovation in the region. Each program is designed to help talented students become successful, job-ready professionals or world-class academicians.</p>
+        </div>
+
+        <div class="about-ssn-heading">
+            <h2>About SSN-SNUC Model United Nations</h2> 
+        </div>
+        <div class="about-ssn-paragraph">
+            <p>
+                Since its inception, SSN-SNUC MUN (previously SSNMUN) has stood as, one of the most prestigious conferences of its kind in the Southern circuit and has attracted a diverse set of audience.  
+            </p>
+            <p>
+                Last year, we were joined by over 250 delegates from over 25 institutions around the country including IITM, VIT, SRM, MOP Vaishnav, Manipal University, SLCU amongst others. The conference was presided over by some of the most experienced and respected set of judges (Executive Board) in the Southern circuit.
+            </p>
+            <p>
+                This being the tenth iteration of the conference we are committed to making it bigger and better than ever before, and we cordially invite you to partner with us in this shared commitment to quality and excellence to help make this event a grand success.
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock %} {% block nav_active %}
+<script>
+    document.getElementById("nav-about").classList.add("active");
+</script>
+
+{% endblock %}

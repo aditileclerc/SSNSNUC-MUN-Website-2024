@@ -1,0 +1,137 @@
+{% extends "base.html" %} 
+{% block page_css%}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/announcements.css')}}" /> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<style>
+    #graph-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 60vh;
+}
+</style>
+{% endblock %} 
+
+
+{% block content %}
+
+<div class="announce-container">
+    <div class="chunk" data-aos="fade-right" data-aos-duration="1500">
+        <h1 style="font-size: 3rem;">
+            DOW JIA
+        </h1>
+        <h2 id="tick-price">
+            
+        </h2>
+        <h5 id="tick-percentage">
+        
+        </h5>
+        <div id="graph-container">
+            <canvas id="stock-graph" ></canvas>
+        </div>
+    </div>
+</div>
+<script defer>
+
+function createChart(data, color) {
+    const ctx = document.getElementById('stock-graph').getContext('2d');
+
+    const chartData = {
+        labels: data.map(entry => entry.date),
+        datasets: [{
+            label: '',
+            data: data.map(entry => entry.averagePrice), // if average amount is NaN, then use null
+            borderColor: 'rgba(0,0,0,0)',
+            backgroundColor: color,
+            fill: true,
+            tension: 0.01,
+        },
+        {
+                label:'',
+                data : [9000],
+                borderColor: 'rgba(0,0,0,0)',
+                fill: false,
+                backgroundColor: 'rgba(0,0,0,0)'
+            }]
+    };
+
+    const options = {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            x: {
+                title: {
+                    display: true,
+                    text: 'Date',
+                },
+            },
+            y: {
+                beginAtZero: true,
+                min: 9000,
+                max: 13000
+            },
+        },
+    };
+
+    const stockChart = new Chart(ctx, {
+        type: 'line',
+        data: chartData,
+        options: options,
+    });
+
+}
+document.addEventListener("DOMContentLoaded", function () {
+    // Parse the CSV data
+    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    Papa.parse("./static/stock.csv", {
+        download: true,
+        header: true,
+        complete: function (results) {
+            const rawData = results.data;
+            const dailyData = {};
+            const arthData = [];
+            const averagedDailyData = Object.keys(rawData).map(i => { 
+                    const date = new Date(rawData[i].date.split(' ')[0]);
+                    const time = rawData[i].date.split(' ')[1];
+                    if (rawData[i].averagePrice != 'NaN'){
+                        arthData.push(rawData[i].averagePrice);
+                        return { date: `${time}` , averagePrice: rawData[i].averagePrice}
+                    }
+                    return { date: `${time}` , averagePrice: null}
+            });
+
+            averagedDailyData.sort((a, b) => { return new Date(a.date) - new Date(b.date) });
+            console.log(averagedDailyData)
+            console.log(arthData)
+            // assign today's value to a variable
+            const today = arthData[arthData.length - 1];
+            const yesterday = arthData[arthData.length - 2];
+            const change = Math.round((today - yesterday) * 100) / 100 ;
+            const percentage = (Math.abs(change) / yesterday) * 100;
+            // round the percentage to 2 decimal places
+            const roundedPercentage = Math.round(percentage * 100) / 100;
+            
+            if (change > 0){
+                document.getElementById('tick-price').innerHTML = `${today} USD`;
+                document.getElementById('tick-percentage').innerHTML = `+${change} (${roundedPercentage}%) ↑ today`;
+                document.getElementById('tick-percentage').style.color = 'green';
+                var color = 'rgba(129, 201, 149, 0.5)';
+            } else {
+                document.getElementById('tick-price').innerHTML = `${today} USD`;
+                document.getElementById('tick-percentage').innerHTML = `${change} (${roundedPercentage}%) ↓ today`;
+                document.getElementById('tick-percentage').style.color = 'red';
+                var color = 'rgba(242, 139, 130, 0.5)'
+            }
+
+            createChart(averagedDailyData, color);
+
+        }
+    });
+});
+
+
+</script>
+
+{% endblock %} 

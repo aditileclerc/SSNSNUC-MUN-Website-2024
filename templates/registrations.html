@@ -1,0 +1,28 @@
+{% extends "base.html" %} {% block page_css %}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/registrations.css')}}"> {% endblock %} {% block content %}
+
+<div class="hero-section">
+    <div class="hero-content">
+        <h1 class="committee-heading">2024 Registration</h1>
+        <p class="committee-body">The registration fee to be paid after allotments are announced is <strong>1800 INR</strong><br/>(inclusive of lunch on all 3 days and stationery).<br/> 
+            The accommodation fees is <b>1800 INR</b> (air conditioned rooms with complimentary breakfast).<br/><br/>Accomodation is optional.<br/>SSN/SNUC students cannot opt for accommodation.</p>
+        </div>
+
+        <div class="apply-box-section">
+            <div class="apply-box">
+                <a href="https://forms.gle/8bwzFJLbS7wN2U1K9" target="_blank">
+                    <img src="{{'../static/images/apply/lightDel.png'}}" class="apply-img"/>
+                </a>
+            </div>
+            <div class="apply-box">
+                <a href="https://docs.google.com/spreadsheets/d/1LjDXooV83Gs6HE_UJGTQdLyaKX34trF2rxyIfxsjFX0/edit?usp=sharing" target="_blank">
+                    <img src="{{'../static/images/apply/matrix.png'}}" class="apply-img"/>
+
+                </a>
+            </div> 
+        </div>
+    
+    
+    </div>
+
+{% endblock %}

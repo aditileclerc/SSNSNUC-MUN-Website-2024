@@ -1,0 +1,38 @@
+{%extends "base.html"%}{% block page_css %}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/sponsor.css')}}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> {% endblock %} {% block
+content %}
+
+<div class="sponsor-heading jumbtron">
+    <h3>Conference Details</h3>
+
+    <div style="display: flex; justify-content: center;">
+        <a style="padding-block: 1rem;
+        color: var(--primary-dark);
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        background: #fff;
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-inline: 0.5rem;" href="../static/Conference Manual.pdf" target="_blank">
+              <i class='bx bxs-download' style="font-size: 1.2rem;"></i>
+              <span class="font-weight-bold text-uppercase">Conference Manual</span>
+        </a>
+    </div>
+
+    <div class="sem-map" style="margin-block: 1rem;">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1B794WT5cTR5iINSE0Yl04Ie1graEriQ&ehbc=2E312F&noprof=1" min-width="500" height="480" width="100%"></iframe>
+    </div>
+
+
+</div>
+
+
+{% endblock %} {% block nav_active %}
+<script>
+    document.getElementById("nav-sponsors").classList.add("active");
+</script>
+{% endblock %}

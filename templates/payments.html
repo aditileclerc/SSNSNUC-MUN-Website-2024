@@ -1,0 +1,64 @@
+{% extends "base.html" %}{% block page_css %}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/payments.css')}}"> {% endblock %} {%
+block content %}
+<div class="payment-container">
+    <div class="top text-center">
+        <h1>Pay to confirm your allotment</h1>
+    </div>
+    <div class="suffix-text">
+        <h2 class="text-center">
+            Payments for Round 2 and IP are now closed!<br> All allotted delegates and reporters
+            are expected to make their payment soon or risk losing their allotment.<br>
+            Only make the payment once you've received your allotment and Delegate code <br>
+            The registration fee to be paid is <strong>1800 INR.</strong><br>
+            The accomodation fee to be paid is <strong>1800 INR.</strong><br>
+        </h2>
+    </div>
+    <div class="bottom">
+        <div class="left">
+            <h3 class="text-center">Payment Procedure</h3>
+            <p>
+                Upon clicking the payment link , you will be redirected to the Razorpay portal for the Payment. Kindly fill in the required fields as follows:
+            <ol>
+                <li> Fill in your <strong>Full Name</strong> that you would like in our certificate, your <strong>Email ID</strong> as well as your <strong>Phone Number</strong> and <strong>College Name.</strong>  </li>
+                <li> Choose only the committee allotted to you from the drop-down list. </li>
+                <li> If you have opted for accommodation, ensure that you have selected the <strong>check box for the Accommodation fee.</strong>  </li>
+                <li> Complete your payment and download the receipt sent via email. Rename your receipt in the following format:
+                    <strong>Delegate Code_Country_Committee_Name.</strong><br>
+                The delegate code is the unique number alloted to you. </li>
+                <li><strong>[IMPORTANT]</strong> Once the payment is complete, kindly reply to you allotment details email from 
+                    <b style="color: var(--secondary);">ssnsnucmun@gmail.com</b> with your receipt and acknowledgement. 
+                </li>
+                <li>Mailing of the receipt is MANDATORY as it will enable us to confirm your payment with our received list, and is the final step in sealing your allotment.</li>
+                <li>If you have trouble locating the receipt, please check your spam folder.</li>
+                <li>Only make the payment for accommodation if your allotment details mail includes information on the same. Refunds will not be initiated for accidental payments.</li>
+            </ol>
+            In case of any queries, do feel free to contact<br> 
+                <b style="color: var(--secondary);">Krishnaa, USG Finance</b><br> 
+                <b style="color: var(--secondary);">+91 81221 36549</b>
+            </p>
+<!--
+            <div class="row justify-content-center" >
+                    <button class="button"><a href="https:\\rzp.io\l\ssn-snuc-mun" target="_blank">PAY NOW</a></button>
+            </div> -->
+        </div>
+        <!-- <div class="right payment-border">
+            <div class="right-top">
+                <h3>Scan the QR code to pay</h3>+
+                <img src="{{url_for('static', filename='images/paytm-2023.png') }}" alt="QR Code for payment">
+            </div>
+            <hr class="hr-text" data-content="OR">
+            <div class="right-bottom">
+                <a href="http://m.paytm.me/ssnce_ssnmun_social"
+                    class="btn-hover-effect btn-hover-effect--effect-5">Pay on PayTM</a>
+            </div>
+        </div> -->
+    </div>
+
+
+</div>
+{% endblock %}{% block nav_active %}
+<script>
+    document.getElementById("payment-page").classList.add("active");
+</script>
+{% endblock %}

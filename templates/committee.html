@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+    {% block content %}
+        <div class="hero-section">
+            <div class="hero-content">
+                <div class="committee-header">
+                    {% if committee.name == "IPC" %}
+                        <div class="logo-duo-container">
+                            <div class="logo-duo">
+                                <img src="{{ committee.ipp_img }}" class="committee-logo"/>
+                                <img src="{{ committee.ipr_img }}" class="committee-logo"/>
+                            </div>
+                        </div>
+                    {% else %}
+                        <img src="{{ committee.img }}" class="committee-logo"/>
+                    {% endif %}
+                    <div class="committee-text">
+                        <p class="committee-heading">{{ committee.name }}</p>    
+                        <p class="committee-subheading">{{ committee.fullName }}</p>
+                    </div>
+                </div>
+                <div class="hero-agenda-sec">                    
+                    <p class="agenda-body">{{ committee.agenda }}</p>
+                </div>
+
+                {% if committee.name == "IPC" %}
+                    <div class="ipc-btn-section">
+                        <div class="btn-section">
+                            <a href="{{committee.bgURL}}" target="_blank">
+                                <button class="bg-guide-btn glow-on-hover btn-hover-effect btn-hover-effect--effect-5 ipp-button">
+                                    View BG for the Photographers
+                                </button>
+                            </a>
+                        </div>
+                        <div class="btn-section">
+                            <a href="{{committee.bgURL}}" target="_blank">
+                                <button class="bg-guide-btn glow-on-hover btn-hover-effect btn-hover-effect--effect-5 ipr-button">
+                                    View BG for the Reporters
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="btn-section">
+                        <a href="{{committee.bgURL}}" target="_blank">
+                            <button class="bg-guide-btn glow-on-hover btn-hover-effect btn-hover-effect--effect-5">
+                                View Background Guide
+                            </button>
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="agenda-section">
+            <div class="agenda-content">
+                <div class="agenda-box"  data-aos="zoom-in-up" data-aos-duration="1000">
+                    <p class="committee-heading">BRIEF</p>
+                <p class="committee-body">
+                    {{committee.description}}
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="chair-section">
+            <p class="chair-heading committee-heading" data-aos="fade-right" data-aos-duration="1000">CHAIRS</p>
+
+            <div class="chair-content">
+                {% for member in members %}
+                    <div class="chair-item" data-aos="zoom-in-up" data-aos-duration="500">
+                        <img src="{{ member.img }}" alt="{{ member.name }}" class="chair-image" data-aos="fade-right" data-aos-duration="500"/>
+                        <div class="committee-details">
+                            <p class="chair-name" >{{ member.name }}</p>
+                            <p class="chair-role">{{ member.position }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/committee.css')}}" />
+
+    {% endblock %}
