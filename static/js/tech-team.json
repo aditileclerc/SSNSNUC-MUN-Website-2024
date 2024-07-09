@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Karun Anantharaman",
+        "position": "USG Tech",
+        "img": "/images/tech_team/karun.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/karun84/",
+        "github_url": "https://github.com/Karun842002"
+    },
+    {
+        "name": "Shreya Sriram",
+        "position": "USG Tech",
+        "img": "/images/tech_team/shreya.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/shreya-sriram-s1",
+        "github_url": "https://github.com/shreya1110-dev"
+    },
+    {
+        "name": "Moniesh Ravichandran",
+        "position": "",
+        "img": "/images/tech_team/moniesh.jpeg",
+        "linkedin_url": "https://www.linkedin.com/in/moniesh",
+        "github_url": "https://github.com/monieshravichandrran"
+    },
+    {
+        "name": "Sathyapriyaa R",
+        "position": "",
+        "img": "/images/tech_team/SATHYAPRIYAA.PNG",
+        "linkedin_url": "https://www.linkedin.com/in/sathya-priyaa-26ba8a1bb/",
+        "github_url": "https://github.com/sathyapriyaa-sketch"
+    },
+    {
+        "name": "Surya Narayan K",
+        "position": "",
+        "img": "/images/tech_team/surya-min.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/surya-narayan-k-774b1121b/",
+        "github_url": "https://github.com/Surya-29"
+    },
+    {
+        "name": "Kavin T",
+        "position": "",
+        "img": "/images/tech_team/Kavin - Kavin.png",
+        "linkedin_url":"https://www.linkedin.com/in/kavin-t-8a3964203/",
+        "github_url":"https://github.com/kavin-t28"
+    }
+]

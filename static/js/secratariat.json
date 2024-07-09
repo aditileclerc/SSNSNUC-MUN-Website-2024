@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Hrishekesh",
+        "position": "Secretary General",
+        "img": "images/about/Hrishekesh_SECGEN.jpg",
+        "insta_url": "https://www.instagram.com/hrishe_1212"
+    },
+    {
+        "name": "Shriram",
+        "position": "Deputy Secretary General",
+        "img": "/images/about/Shriram_DepSecGen.jpg",
+        "insta_url": "https://www.instagram.com/bazyagami"
+    },
+    {
+        "name":"Pravalika Arunkumar",
+        "position":"Director General",
+        "img":"/images/about/PravalikaArunkumar_DirGen.jpg",
+        "insta_url":"https://www.instagram.com/pravalikaarunkumar"
+    },
+    {
+        "name": "Athmaaram S",
+        "position": "Director General",
+        "img": "/images/about/Athmaaram_S_Director_General.jpg",
+        "insta_url": "https://www.instagram.com/.x.t.h.m.x."
+    },
+    {
+        "name": "Pavan",
+        "position": "USG Delegate Affairs",
+        "img": "/images/about/Pavan V_USG-Delegate_Affairs.JPG",
+        "insta_url": "https://www.instagram.com/pavan_v2003"
+    },
+    {
+        "name": "Vignesvern",
+        "position": "USG Delegate Affairs",
+        "img": "/images/about/Vignesvern _USG - Delegate Affairs_.jpg",
+        "insta_url": "https://www.instagram.com/"
+    },
+    {
+        "name": "Harish",
+        "position": "USG Sponsorship",
+        "img": "/images/about/Harish_USG_SPONSORSHIP.jpg",
+        "insta_url": "https://www.instagram.com/harishxanand"
+    },
+    {
+        "name": "Anirudh",
+        "position": "USG Sponsorship",
+        "img": "/images/about/Anirudh_USGsponsorship.jpeg",
+        "insta_url": "https://www.instagram.com/anirudh_1403"
+    },
+    {
+        "name": "Gayathri",
+        "position": "USG Design",
+        "img": "/images/about/Gayathri_USG_Design.jpg",
+        "insta_url": "https://www.instagram.com/euphoree.a"
+    },
+    {
+        "name":"Ashwin Raaghav",
+        "position":"USG Design",
+        "img":"/images/about/Ashwin Raaghav-Design.jpg",
+        "insta_url":"https://www.instagram.com/ashwin_raaghav"
+
+    },
+    {
+        "name": "Raghav",
+        "position": "USG Public Relations",
+        "img": "/images/about/Raghav_USG-PR.jpg",
+        "insta_url": "https://www.instagram.com/raghav_subbu"
+    },
+    {
+        "name": "Sanjjit",
+        "position": "USG Public Relations",
+        "img": "/images/about/Sanjjit_USG-PR.jpg",
+        "insta_url": "https://www.instagram.com/sanjjit_001"
+    },
+    {
+        "name": "Krishnaa",
+        "position": "USG Finance",
+        "img": "/images/about/Krishnaa_USGfinance.png",
+        "insta_url": "https://www.instagram.com/kri_yt"
+    },
+    {
+        "name": "Surya Narayan",
+        "position": "USG Tech",
+        "img": "/images/about/Surya_Narayan_USG_Tech.jpg",
+        "insta_url": "https://www.instagram.com/surya_k_29"
+    },
+    {
+        "name":"Vetrivel",
+        "position":"USG Tech",
+        "img":"/images/about/Vetrivel_USG-Tech.jpg",
+        "insta_url":"https://www.instagram.com/vetrivel__"
+
+    },
+    {
+        "name": "T.Aditya Varun",
+        "position": "USG Logistics",
+        "img": "/images/about/T.Aditya Varun_USG_Logistics.jpg",
+        "insta_url": "https://www.instagram.com/adi._.v"
+    },
+    {
+        "name": "Rohit",
+        "position": "USG Logistics",
+        "img": "/images/about/ROHIT_USGLOGISTICS.jpg",
+        "insta_url": "https://www.instagram.com/rohitramz"
+    },
+    {
+        "name":"Udanthika",
+        "position":"USG Hospitality",
+        "img":"/images/about/Udanthika_USG_hospitality.jpg",
+        "insta_url":"https://www.instagram.com/udanthika_venkatesh"
+    },
+    {
+        "name":"Srikar",
+        "position":"USG Hospitality",
+        "img":"/images/about/Srikar_Hospitality.jpg",
+        "insta_url":"https://www.instagram.com/"
+    },
+
+    {
+        "name":"Karthik",
+        "position":"USG Visual Media",
+        "img":"/images/about/Karthik_USG_VisualMedia.jpeg",
+        "insta_url":"https://www.instagram.com/"
+    },
+    {
+      "name": "Vishnu Siddharth",
+      "position": "USG Visual Media",
+      "img": "/images/about/Vishnu Siddharth V R - Visual Media.png",
+      "insta_url": "https://www.instagram.com/"
+    }
+
+
+]

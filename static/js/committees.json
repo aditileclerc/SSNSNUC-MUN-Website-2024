@@ -1,0 +1,84 @@
+[
+    {
+        "url": "arableague",
+        "name": "ARAB LEAGUE",
+        "fullName": "Arab League",
+        "cardName": "AL",
+        "cardFullName": "Arab League",
+        "img":  "../static/images/committees/arab_league2_min.webp",
+        "agenda": "May 15, 1948",
+        "description":  "We are honored to present the Flagship Committee for the SSN-SNUC Model United Nations 2023 - the Arab League. Steeped in history and significance, the Arab League, formally known as the League of Arab States, stands as a pivotal regional organization in the Arab world, encompassing parts of Northern Africa, Western Africa, Eastern Africa, and Western Asia.\nEstablished in Cairo in 1945, the Arab League was founded with the noble objective of fostering the independence, sovereignty, and interests of its member countries and observers. From its humble beginnings with seven founding members, the League has evolved into an influential body, comprising nearly two dozen diverse member nations and four esteemed observer states. Guided by its comprehensive charter, the League boasts a dedicated council that ensures the realization of its overarching goals.\nAt the heart of the Arab League's mission lies the aspiration to forge stronger ties between member states and coordinate collaborative efforts among them. It diligently safeguards their independence and sovereignty, while actively addressing the multifaceted concerns and interests of the Arab countries at large.\nWith its distinguished status as a double delegation committee, the Arab League promises an extraordinary platform for engaging diplomacy and fruitful discourse. Delegates participating in this committee can expect a dynamic and captivating experience as they tackle pressing regional issues, navigate intricate geopolitical dynamics, and strive for consensus-driven solutions.\nJoin us in this exceptional endeavor as we embark on a journey of impactful diplomacy, insightful debates, and meaningful collaboration within the prestigious Arab League. Together, let us endeavor to shape the future of the Arab world and make a lasting impact on the global stage.\n",
+        "bgURL": "https://drive.google.com/file/d/1WBf6AKbManN8Oz8STUGoDJA2EnZAVzTc/view?usp=drive_link"
+    },
+    {
+        "url": "hrc",
+        "name": "UNHRC",
+        "fullName": "United Nations Human Rights Council",
+        "cardName": "UNHRC",
+        "cardFullName": "Human Rights Council",
+        "img": "../static/images/committees/committee_logo_hrc_min.webp",
+        "agenda":"5th Session: Discussion on 'Institution-building of the United Nations Human Rights Council",
+        "description": "Join us in simulating the United Nations Human Rights Council (UNHRC), the foremost intergovernmental body dedicated to promoting and protecting human rights globally. The UNHRC addresses violations, seeks solutions, and engages in discussions on thematic issues and country-specific situations. Since 2006, it has established vital mechanisms and subsidiary bodies to uphold human rights.\nParticipate in this rewarding simulation that empowers you to be the catalyst for positive change. By embodying the spirit of \"Be the change you wish to see in the world,\" you can lend your voice, advocate for equality, and stand up for human rights. Join us in this professional and captivating platform, where astute minds engage in thought-provoking debates, craft innovative solutions, and leave a lasting impact on the global discourse.\nTogether, we will simulate the United Nations Human Rights Council, fostering dialogue, enhancing diplomatic skills, and addressing the pressing challenges our world faces. Embrace the opportunity to uphold the principles of equality, justice, and human dignity. Join us as we strive for a world where human rights are universally respected and protected. Become a driving force for positive change within the prestigious UNHRC.\n",
+        "bgURL": "https://drive.google.com/file/d/13BZ4T9omJ3TFiXIApYAVcZXqIaVGNtlx/view?usp=drive_link"
+    },
+    {
+        "url": "nato",
+        "name": "nato",
+        "fullName": "North Atlantic Treaty Organization",
+        "cardName": "NATO",
+        "cardFullName": "North Atlantic Treaty Organization",
+        "img":  "../static/images/committees/committee_logo_disec_min.webp",
+        "agenda":"3rd-5th April, 2023: The Finnish Question",
+        "description": "We are honored to present the esteemed Disarmament and International Security Committee (DISEC), the First Committee of the United Nations General Assembly. DISEC serves as a crucial platform for addressing and tackling issues related to disarmament, global security challenges, and threats to international peace. With a firm commitment to stability and transparency in armament, DISEC supports debates, drafts resolutions, and seeks to shape a safer world.\nThe imperative to control arms and combat military aggression is unceasing. If you are driven by a deep passion for conflict resolution and disarmament, the path leads you to DISEC. This committee offers a unique opportunity to engage in substantive discussions, propose innovative solutions, and work towards a world free from the shackles of arms proliferation.\nIf your ultimate goals are disarmament and peace, DISEC is the platform where you can transform these aspirations into reality. Join us as we gather for the 10th edition of SSN-SNUC MUN, and be part of a distinguished committee that stands at the forefront of promoting global security and peacebuilding efforts.\nEmbrace the challenge, broaden your understanding of international security, and make a lasting impact. \n",
+        "bgURL": "https://drive.google.com/file/d/1TWh03TaH5c8jocqHcOzrnhLqxK9rsmaB/view?usp=drive_link"
+    },
+    {
+        "url": "ecosoc",
+        "name": "UNGA-ECOSOC",
+        "fullName": "United Nations General Assembly\nEconomic and Social Council",
+        "cardName": "ECOSOC",
+        "cardFullName": "Economic and Social Council",
+        "img":  "../static/images/committees/committee_logo_ecosoc_min.webp",
+        "quote":"",
+        "agenda":"Transition from Relief to Development",
+        "description": "We proudly present the esteemed Economic and Financial Committee, the second of the six committees within the United Nations General Assembly. This committee holds paramount significance as it delves into matters of international importance, focusing on the economic and financial states and conditions of countries and regions on both a national and global scale. ECOFIN plays a vital role in addressing issues related to economic growth, development, and macroeconomic policies in international trade.\nWith a core mission of securing financing for sustainable development, eradicating poverty, and promoting globalization and interdependence, ECOFIN stands as a critical platform for shaping global economic policies. All 193 member nations of the United Nations have equal representation and voting rights, ensuring a diverse and inclusive environment for fruitful deliberations.\nIf you possess a deep understanding of finance and economic policies and aspire to contribute to the formulation of impactful solutions, we invite you to join us at SSN-SNUC MUN 2023. This is your opportunity to engage in stimulating discussions, negotiate resolutions, and shape the economic landscape of our interconnected world.\nEmbrace the challenge, broaden your knowledge, and make your mark within the distinguished Economic and Financial Committee. Stay tuned for further updates on SSN-SNUC MUN 2023 as we embark on a transformative journey of economic diplomacy and global cooperation.\n",
+        "bgURL": "https://drive.google.com/file/d/1FhdU7zsrkH59DC-dZlmiV9xDj_0cgSyS/view?usp=drive_link" 
+    },
+    {
+        "url": "disec",
+        "name": "UNGA-DISEC",
+        "fullName": "United Nations General Assembly\nDisarmament and International Security Committee",
+        "cardName": "DISEC",
+        "cardFullName": "Disarmament and International Security Committee",
+        "img":  "../static/images/committees/committee_logo_disec_min.webp",
+        "quote":"",
+        "agenda":"Question of Defining Aggression \n Special Committee Meeting \n Day 1:  4th June, 1968 \n Day 2 : 6th December, 1971 \n Day 3 : 6th December,1974 ",
+        "description": "We are honored to present the esteemed Disarmament and International Security Committee (DISEC), the First Committee of the United Nations General Assembly. DISEC serves as a crucial platform for addressing and tackling issues related to disarmament, global security challenges, and threats to international peace. With a firm commitment to stability and transparency in armament, DISEC supports debates, drafts resolutions, and seeks to shape a safer world.\nThe imperative to control arms and combat military aggression is unceasing. If you are driven by a deep passion for conflict resolution and disarmament, the path leads you to DISEC. This committee offers a unique opportunity to engage in substantive discussions, propose innovative solutions, and work towards a world free from the shackles of arms proliferation.\nIf your ultimate goals are disarmament and peace, DISEC is the platform where you can transform these aspirations into reality. Join us as we gather for the 10th edition of SSN-SNUC MUN, and be part of a distinguished committee that stands at the forefront of promoting global security and peacebuilding efforts.\nEmbrace the challenge, broaden your understanding of international security, and make a lasting impact. \n",
+        "bgURL": "https://drive.google.com/file/d/1TWh03TaH5c8jocqHcOzrnhLqxK9rsmaB/view?usp=drive_link"
+    },
+    {
+        "url": "niti",
+        "name": "NITI",
+        "fullName": "NITI Aayog",
+        "cardName": "NITI Aayog",
+        "cardFullName": "National Institution for Transforming India",
+        "img":  "../static/images/committees/committee_logo_niti_min.webp",
+        "agenda":" Discussing the allocation of resources to States and Union Territories in India \n 2. Discussing the ways to accelerate the achievement of Sustainable Development Goals in India",
+        "quote": "",
+        "description": "Join us in simulating the United Nations Human Rights Council (UNHRC), the foremost intergovernmental body dedicated to promoting and protecting human rights globally. The UNHRC addresses violations, seeks solutions, and engages in discussions on thematic issues and country-specific situations. Since 2006, it has established vital mechanisms and subsidiary bodies to uphold human rights.\nParticipate in this rewarding simulation that empowers you to be the catalyst for positive change. By embodying the spirit of \"Be the change you wish to see in the world,\" you can lend your voice, advocate for equality, and stand up for human rights. Join us in this professional and captivating platform, where astute minds engage in thought-provoking debates, craft innovative solutions, and leave a lasting impact on the global discourse.\nTogether, we will simulate the United Nations Human Rights Council, fostering dialogue, enhancing diplomatic skills, and addressing the pressing challenges our world faces. Embrace the opportunity to uphold the principles of equality, justice, and human dignity. Join us as we strive for a world where human rights are universally respected and protected. Become a driving force for positive change within the prestigious UNHRC.\n",
+        "bgURL": "https://drive.google.com/file/d/13BZ4T9omJ3TFiXIApYAVcZXqIaVGNtlx/view?usp=drive_link"
+    },
+    {
+        "url": "ipc",
+        "name": "IPC",
+        "fullName": "International Press Corps",
+        "cardName": "IPC",
+        "cardFullName": "International Press Corps",
+        "ipp_img": "../static/images/committees/committee_logo_ipp_min.webp",
+        "ipr_img": "../static/images/committees/committee_logo_ipc_min.webp",
+        "agenda": "",
+        "quote": "\"Journalism allows its readers to witness history; fiction gives its readers an opportunity to live it.\" - John Hersey.",
+        "description": "We are delighted to present the International Press, a prestigious committee tasked with documenting the proceedings of the conference in a captivating and engaging manner. With a delicate balance between creativity and accuracy, the IP plays a vital role in conveying the intricacies of the discussions in a simple, direct, and thought-provoking way. In addition, our talented IP Photographers skillfully capture the moments of intense debate and deliberation, enriching the conference reports with captivating visuals.\nAs unbiased journalists, the IP does not represent a specific viewpoint or personal opinion. Our dedicated journalists act as keen observers, diligently reporting on the happenings of the United Nations conference to the world. With their quirky, sharp, and sly approach, they bring a fresh perspective to the narratives, shedding light on the affairs that truly matter.\nThe International Press committee is ideally suited for those who have a passion for writing and a deep interest in global affairs. It is a platform where words become powerful tools to shape public opinion and contribute to meaningful discourse. A keen eye for details, a curious personality, and a genuine desire to understand and report on pressing issues are the qualities that will propel you to excel in this committee.\nIf you possess the ability to put people on the spot with insightful questions and possess a flair for crafting compelling narratives, the International Press Committee is the perfect place for you to showcase your talent. Join us at SSN-SNUC MUN 2023 and be part of a distinguished committee that brings the stories of international diplomacy to life.\nPrepare to embark on a journey of journalistic excellence, where your words will have the power to inspire, inform, and shape the narrative of global affairs. \n",
+        "bgURL": "https://drive.google.com/file/d/17EfEyDmokW3dDRJyofLF2EIn6bxyR6hf/view?usp=drive_link"
+    }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "committee": "arableague",
+    "name": "Ayush R",
+    "position": "Chairperson",
+    "img": "images/EB PICS/AL/C Ayush.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "arableague",
+    "name": "Lokesh Narayana",
+    "position": "Co-Chairperson",
+    "img": "images/EB PICS/AL/VC Lokesh.jpg",
+    "about": "zilch"
+  },
+  {
+    "committee": "arableague",
+    "name": "Aashrith S Narayn",
+    "position": "Director",
+    "img": "images/EB PICS/AL/D Aashrith.jpg",
+    "about": "zilch"
+  },
+  {
+    "committee": "arableague",
+    "name": "Anindhitha A",
+    "position": "Director",
+    "img": "images/EB PICS/AL/D Anindhitha.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "niti",
+    "name": "Mayank Singhal",
+    "position": "Chairperson",
+    "img": "images/EB PICS/NITI/C Mayank.JPEG",
+    "about": "zilch"
+  },
+  {
+    "committee": "niti",
+    "name": "Ravi Vatsan",
+    "position": "Co-Chairperson",
+    "img": "images/EB PICS/NITI/VC Ravi.JPeG",
+    "about": "zilch"
+  },
+  {
+    "committee": "niti",
+    "name": "Vishal K S",
+    "position": "Director",
+    "img": "images/EB PICS/NITI/D Vishal.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "nato",
+    "name": "Aravind Y Belur",
+    "position": "Chairperson",
+    "img": "images/EB PICS/NATO/C Aravind.jpg",
+    "about": "zilch"
+  },
+  {
+    "committee": "nato",
+    "name": "Raunak Chaudhuri",
+    "position": "Co-Chairperson",
+    "img": "images/EB PICS/NATO/VC Raunak.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "nato",
+    "name": "Adhithya Vishwanathan",
+    "position": "Director",
+    "img": "images/EB PICS/NATO/D Adhithya.jpg",
+    "about": "zilch"
+  },
+  {
+    "committee": "disec",
+    "name": "Niresh Swamy",
+    "position": "Chairperson",
+    "img": "images/EB PICS/DISEC/C Niresh.jpg",
+    "about": "zilch"
+  },
+  {
+    "committee": "disec",
+    "name": "Aritra Karak",
+    "position": "Co-Chairperson",
+    "img": "images/EB PICS/DISEC/VC Aritra.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "disec",
+    "name": "Shreya Nandagopal",
+    "position": "Director",
+    "img": "images/EB PICS/DISEC/D Shreya.jpg",
+    "about": "zilch"
+  },
+  {
+    "committee": "hrc",
+    "name": "Shankar K",
+    "position": "Chairperson",
+    "img": "images/EB PICS/HRC/C Shashank.JPG",
+    "about": "zilch"
+  },
+  {
+    "committee": "hrc",
+    "name": "Athmaaram S",
+    "position": "Co-Chairperson",
+    "img": "images/EB PICS/HRC/VC Athmaaram.jpg",
+    "about": "zilch"
+  },
+  {
+    "committee": "hrc",
+    "name": "Bhavana B",
+    "position": "Director",
+    "img": "images/EB PICS/HRC/D Bhavana.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "ecosoc",
+    "name": "Kathiyayini Sivakumar",
+    "position": "Chairperson",
+    "img": "images/EB PICS/ECOFIN/Chairperson Kathiyayini.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "ecosoc",
+    "name": "Hrishekesh N S",
+    "position": "Co-Chairperson",
+    "img": "images/EB PICS/ECOFIN/VC Hrishikesh.jpeg",
+    "about": "lorem ipsum "
+  },
+  {
+    "committee": "ecosoc",
+    "name": "Aswath Karthik",
+    "position": "Director",
+    "img":"images/EB PICS/ECOFIN/Director Aswath.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "ipc",
+    "name": "Arun Prasath K J",
+    "position": "Head of IP",
+    "img":"images/EB PICS/IP/HIPC.JPG",
+    "about": "zilch"
+  },
+  {
+    "committee": "ipc",
+    "name": "Keerthana",
+    "position": "Editor in Chief",
+    "img": "images/EB PICS/IP/EIC.jpeg",
+    "about": "zilch"
+  },
+  {
+    "committee": "ipc",
+    "name": "Prabhu Shankar",
+    "position": "Head of Photography",
+    "img": "images/EB PICS/IP/HOP.jpg",
+    "about": "zilch"
+  }
+]
