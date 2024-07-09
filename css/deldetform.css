@@ -1,0 +1,91 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+#delegate-details-container {
+    top: 50px;
+    color: #fff;
+    background-color: var(--primary-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#delform{
+    margin: 25px 10%;
+    width: 100%;
+    max-width: 640px;
+    color: white;
+}
+
+form {
+    background-color: #47263d;
+    padding: 3vh 5vw 3vh 5vw;
+    border-radius: 2%;
+}
+
+input {
+    background: none !important;
+    border: none !important;
+    padding-left: 0!important;
+    border-radius: 0!important;
+    border-bottom: 1px solid white !important;
+    margin-bottom: 10px !important;
+    color: white !important;
+    appearance: none;
+}
+
+label:hover{
+    color: white !important;
+}
+
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+::placeholder {
+    color: #EDEADE !important;
+    opacity: 1 !important; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #EDEADE !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #EDEADE !important;
+  }
+
+.hasicon{
+    padding-left: 2rem !important;
+}
+
+.radiobtn{
+    background-color: #2b0d21;
+    padding: 13px 20px 10px 15px !important;
+}
+
+label:has(input[type=radio]:checked)  {
+    background-color: green !important;
+    accent-color: green;
+}
+
+.radiobtns{
+    accent-color: #2b0d21;
+}
+
+select{
+    background-color: #2b0d21 !important;
+    color: white !important;
+}
+
+.submitbtn {
+    background-color: #2b0d21 !important;
+}
+
+#field-error, #field-error-1{
+    color: red;
+    visibility: hidden;
+}
